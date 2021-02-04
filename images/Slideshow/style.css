@@ -1,0 +1,56 @@
+.img-div{
+    position: relative;
+    width: 70vw;
+    height: 80vh;
+    border: 1px solid;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#image{
+    width: 100%;
+    height: 100%;
+}
+
+#button1, #button2{
+    position: absolute;
+    width: 3vw;
+    height: 7vh;
+    border-radius: 5px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+#button1{
+    top: 45%;
+    left: 0;
+    background-image: url("pages//left-arrow.png");
+}
+
+#button2{
+    top: 45%;
+    right: 0;
+    background-image: url("pages//right-arrow.png");
+}
+
+#pag{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.shrjan{
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background-color: gray;
+    display: inline-block;
+}
+
+.active-img{
+    background-color: white;
+}

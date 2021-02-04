@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 90vw;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#main-menu{
+}
+
+#main-menu ul{
+    min-height: 100px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main-menu ul li{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#main-menu ul .active{
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+#main-content{
+
+}
+.main-content__table{
+    display: flex;
+    justify-content: center;
+}
+
+.main-content__table table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.main-content__table th{
+    font-size: 22px;
+}
+.main-content__table th,.main-content__table td{
+    padding: 10px;
+}
+
+
+.main-content__pagination{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-content__pagination > div{
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.main-content__pagination .active{
+    background-color: black;
+    color: white;
+}
+
+.btn{
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.update-btn{
+    background-image: url(../images/pen.png);
+}
+
+.delete-btn{
+    background-image: url(../images/delete.png);
+}
+
+/* modal */
+.modal-content{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.modal-body{
+    min-width: 30vw;
+    max-width: 70vw;
+    min-height: 50vh;
+    max-height: 90vh;
+    background-color: white;
+}
+
+.confirm-modal-body, .form-modal-body{
+    display: grid;
+    grid-template-rows: auto 100px;
+}
+
+.modal-confirm__question-div{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-confirm__buttons-div, .modal-form__buttons-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.modal-confirm__buttons-div div, .modal-form__buttons-div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
