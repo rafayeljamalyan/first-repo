@@ -246,7 +246,7 @@ function deleteBtnOnClick(rowData, e){
 }
 
 /** r_function
- * 
+ *
  */
 function deleteRow(rowData){
     console.log(rowData);
