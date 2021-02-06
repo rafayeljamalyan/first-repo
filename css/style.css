@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-.main{
-    width: 90vw;
-    margin: auto;
-    margin-top: 20px;
-    border: 1px solid black;
-    border-radius: 20px;
+.main {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  width: 90vw;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 
 #main-menu{
